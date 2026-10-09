@@ -50,7 +50,7 @@ param(
 #     authentication (the RDS instance domain join, MSSQLSvc SPN registration,
 #     or a Kerberos SQL login) - those must be confirmed separately on the
 #     RDS/SQL Server side.
-#     (Windows negotiates TCP/UDP for Kerberos automatically, so a PASS confirms
+#     (Microsoft Windows negotiates TCP/UDP for Kerberos automatically, so a PASS confirms
 #     Kerberos works regardless of transport.)
 #   - RPC Ephemeral ports are DYNAMIC. Windows assigns them on-demand when
 #     services register RPC endpoints. Testing a specific port like 49153 may
